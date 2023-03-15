@@ -2,5 +2,9 @@
     {
         "action": "afficher_personnes",
         "Controller": "PersonneController::Afficher"
+    },
+    {
+        "action": "/",
+        "Controller": "DefaultController::index"
     }
 ]

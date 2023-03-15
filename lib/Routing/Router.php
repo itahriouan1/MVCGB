@@ -16,6 +16,13 @@ class Router{
                 }
             }
         }
+        else{
+            foreach($Routes as $Route){
+                if($Route->action == '/'){
+                    $controllerString = $Route->Controller;
+                }
+            }
+        }
         if($controllerString!=""){
             $controllerTable = explode("::", $controllerString);
             $Controller = 'src\\Controller\\'.$controllerTable[0];
