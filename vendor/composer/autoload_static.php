@@ -11,9 +11,11 @@ class ComposerStaticInit3b09a61b3cbd0d77f3b27b0ca4322678
         array (
             'src\\Repository\\' => 15,
             'src\\Entity\\' => 11,
+            'src\\Controller\\' => 15,
         ),
         'l' => 
         array (
+            'lib\\Routing\\' => 12,
             'lib\\DB\\' => 7,
         ),
     );
@@ -26,6 +28,14 @@ class ComposerStaticInit3b09a61b3cbd0d77f3b27b0ca4322678
         'src\\Entity\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Entity',
+        ),
+        'src\\Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Controller',
+        ),
+        'lib\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib/Routing',
         ),
         'lib\\DB\\' => 
         array (

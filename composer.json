@@ -10,7 +10,9 @@
         "psr-4": {
             "lib\\DB\\": "lib/DB/",
             "src\\Entity\\":"src/Entity/",
-            "src\\Repository\\":"src/Repository/"
+            "src\\Repository\\":"src/Repository/",
+            "src\\Controller\\":"src/Controller/",
+            "lib\\Routing\\": "lib/Routing/"
         }
     },
     "require": {}

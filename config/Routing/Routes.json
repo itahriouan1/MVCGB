@@ -1,0 +1,6 @@
+[
+    {
+        "action": "afficher_personnes",
+        "Controller": "PersonneController::Afficher"
+    }
+]

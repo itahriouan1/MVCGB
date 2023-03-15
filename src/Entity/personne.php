@@ -9,12 +9,20 @@ class personne {
     protected $prenom;
     protected $email;
 
-    public function __construct(int $id,String $nom,String $prenom,String $email)
+    public function __construct()
     {
-        $this->id = $id; 
-        $this->nom = $nom; 
-        $this->prenom = $prenom; 
-        $this->email = $email;   
+        if(func_num_args()==3){
+            $this->nom = func_get_arg(0);
+            $this->prenom = func_get_arg(1);
+            $this->email = func_get_arg(2);
+        }
+        if(func_num_args()==4){
+            $this->id = func_get_arg(0);
+            $this->nom = func_get_arg(1);
+            $this->prenom = func_get_arg(2);
+            $this->email = func_get_arg(3);
+        }
+         
     }
 
     /**
