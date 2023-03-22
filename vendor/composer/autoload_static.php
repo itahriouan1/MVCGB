@@ -15,6 +15,7 @@ class ComposerStaticInit3b09a61b3cbd0d77f3b27b0ca4322678
         ),
         'l' => 
         array (
+            'lib\\View\\' => 9,
             'lib\\Routing\\' => 12,
             'lib\\DB\\' => 7,
         ),
@@ -32,6 +33,10 @@ class ComposerStaticInit3b09a61b3cbd0d77f3b27b0ca4322678
         'src\\Controller\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Controller',
+        ),
+        'lib\\View\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib/View',
         ),
         'lib\\Routing\\' => 
         array (
