@@ -18,6 +18,7 @@ class ComposerStaticInit3b09a61b3cbd0d77f3b27b0ca4322678
             'lib\\View\\' => 9,
             'lib\\Routing\\' => 12,
             'lib\\DB\\' => 7,
+            'lib\\Controller\\' => 15,
         ),
     );
 
@@ -45,6 +46,10 @@ class ComposerStaticInit3b09a61b3cbd0d77f3b27b0ca4322678
         'lib\\DB\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lib/DB',
+        ),
+        'lib\\Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib/Controller',
         ),
     );
 

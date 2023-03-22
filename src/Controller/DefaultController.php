@@ -2,10 +2,14 @@
 
 namespace src\Controller;
 
-class DefaultController{
+use lib\Controller\AbstractController;
+use lib\View\View;
+
+class DefaultController extends AbstractController{
 
 
     public function index(){
-        echo 'Bonjour dans acceuil';
+        $view = $this->View;
+        $view->render("index");
     }
 }

@@ -4,6 +4,18 @@
         "Controller": "PersonneController::Afficher"
     },
     {
+        "action": "modifier_personne",
+        "Controller": "PersonneController::Modifier"
+    },
+    {
+        "action": "supprimer_personne",
+        "Controller": "PersonneController::Supprimer"
+    },
+    {
+        "action": "ajouter_personne",
+        "Controller": "PersonneController::Ajouter"
+    },
+    {
         "action": "/",
         "Controller": "DefaultController::index"
     }
